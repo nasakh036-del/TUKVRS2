@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/login/oauth/:path*", "destination": "https://github.com/login/oauth/:path*" },
     { "source": "/(.*)", "destination": "https://github.com/$1" }
   ]
 }
